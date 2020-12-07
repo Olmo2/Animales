@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="50dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/caballo"
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/caballo"
+                    app:srcCompat="@drawable/caballo" />
+
+                <Button
+                    android:id="@+id/buttonCaballo"
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_weight="1"
+                    android:text="@string/play" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/buttonElefante"
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_weight="1"
+                    android:text="@string/play" />
+
+                <ImageView
+                    android:id="@+id/elefante"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/elefante"
+                    app:srcCompat="@drawable/elefante" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/gallo"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/gallo"
+                    app:srcCompat="@drawable/gallo" />
+
+                <Button
+                    android:id="@+id/buttonGallo"
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_weight="1"
+                    android:text="@string/play" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/buttonGato"
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_weight="1"
+                    android:text="@string/play" />
+
+                <ImageView
+                    android:id="@+id/gato"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/gato"
+                    app:srcCompat="@drawable/gato" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/leon"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/leon"
+                    app:srcCompat="@drawable/leon" />
+
+                <Button
+                    android:id="@+id/buttonLeon"
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_weight="1"
+                    android:text="@string/play" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/buttonPerro"
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_weight="1"
+                    android:text="@string/play" />
+
+                <ImageView
+                    android:id="@+id/perro"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/perro"
+                    app:srcCompat="@drawable/perro" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/vaca"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/vaca"
+                    app:srcCompat="@drawable/vaca" />
+
+                <Button
+                    android:id="@+id/buttonVaca"
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_weight="1"
+                    android:text="@string/play" />
+
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

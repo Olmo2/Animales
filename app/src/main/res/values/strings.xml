@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Animales</string>
+    <string name="play">Play</string>
+    <string name="vaca">Vaca</string>
+    <string name="caballo">Caballo</string>
+    <string name="elefante">Elefante</string>
+    <string name="gallo">Gallo</string>
+    <string name="gato">Gato</string>
+    <string name="leon">León</string>
+    <string name="perro">Perro</string>
+</resources>
